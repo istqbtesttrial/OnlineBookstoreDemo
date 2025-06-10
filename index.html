@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Bookstore Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,14 +24,14 @@
 <main>
     <section class="featured-books">
         <h2>Livres en Vedette</h2>
-        <div class="book">
+        <div class="book" data-aos="fade-up">
             <img src="https://via.placeholder.com/150" alt="Livre 1">
             <h3>Livre 1</h3>
             <p>Auteur: Auteur Exemple</p>
             <p>Prix: 19,99 €</p>
             <button>Ajouter au panier</button>
         </div>
-        <div class="book">
+        <div class="book" data-aos="fade-up" data-aos-delay="100">
             <img src="https://via.placeholder.com/150" alt="Livre 2">
             <h3>Livre 2</h3>
             <p>Auteur: Auteur Exemple</p>
@@ -41,6 +45,7 @@
     <p>&copy; 2025 - Développé par Belhaj Ouajdi</p>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script src="scripts.js"></script>
 </body>
 </html>
